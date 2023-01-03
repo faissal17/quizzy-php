@@ -1,11 +1,5 @@
 <?php
-
-
 require 'database.php';
-
-
-
-
 
 ?>
 <!DOCTYPE html>

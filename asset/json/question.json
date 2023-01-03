@@ -1,0 +1,112 @@
+[
+    {
+        "question": "Why is AWS more economical than traditional data centers for applications with varying compute workloads?\r\n",
+        "answer_1": "Amazon EC2 costs are billed on a monthly basis",
+        "type1": 0,
+        "answer_2": "Users retain full administrative access to their Amazon EC2 instances",
+        "type2": 0,
+        "answer_3": "Amazon EC2 instances can be launched on demand when needed",
+        "type3": 1,
+        "answer_4": "Users can permanently run enough instances to handle peak workloads",
+        "type4": 0
+    },
+    {
+        "question": "Which AWS service would simplify the migration of a database to AWS?",
+        "answer_1": "AWS Storage Gateway",
+        "type1": 0,
+        "answer_2": "AWS Database Migration Service (AWS DMS)",
+        "type2": 1,
+        "answer_3": "Amazon EC2",
+        "type3": 0,
+        "answer_4": "Amazon AppStream 2.0",
+        "type4": 0
+    },
+    {
+        "question": "Which AWS offering enables users to find, buy, and immediately start using software solutions in their AWS environment?",
+        "answer_1": "AWS Config",
+        "type1": 0,
+        "answer_2": " AWS OpsWorks",
+        "type2": 0,
+        "answer_3": "AWS SDK",
+        "type3": 0,
+        "answer_4": "AWS Marketplace",
+        "type4": 1
+    },
+    {
+        "question": "Which AWS networking service enables a company to create a virtual network within AWS?",
+        "answer_1": " AWS Config",
+        "type1": 0,
+        "answer_2": "Amazon Route 53",
+        "type2": 0,
+        "answer_3": "AWS Direct Connect",
+        "type3": 0,
+        "answer_4": "Amazon Virtual Private Cloud (Amazon VPC)",
+        "type4": 1
+    },
+    {
+        "question": "Which of the following is an AWS responsibility under the AWS shared responsibility model?",
+        "answer_1": "Configuring third-party applications",
+        "type1": 0,
+        "answer_2": "Maintaining physical hardware",
+        "type2": 1,
+        "answer_3": "Securing application access and data",
+        "type3": 0,
+        "answer_4": " Managing guest operating systems",
+        "type4": 0
+    },
+    {
+        "question": "Which component of the AWS global infrastructure does Amazon CloudFront use to ensure low-latency delivery?",
+        "answer_1": "AWS Regions",
+        "type1": 0,
+        "answer_2": "Edge locations",
+        "type2": 1,
+        "answer_3": " Availability Zones",
+        "type3": 0,
+        "answer_4": "Virtual Private Cloud (VPC)",
+        "type4": 0
+    },
+    {
+        "question": "How would a system administrator add an additional layer of login security to a user's AWS Management Console?",
+        "answer_1": " Use Amazon Cloud Directory",
+        "type1": 0,
+        "answer_2": "Audit AWS Identity and Access Management (IAM) roles",
+        "type2": 0,
+        "answer_3": "Enable multi-factor authentication",
+        "type3": 1,
+        "answer_4": "Enable AWS CloudTrail",
+        "type4": 0
+    },
+    {
+        "question": "Which service can identify the user that made the API call when an Amazon EC2 instance is terminated?",
+        "answer_1": "AWS Trusted Advisor",
+        "type1": 0,
+        "answer_2": "AWS CloudTrail",
+        "type2": 1,
+        "answer_3": "AWS X-Ray",
+        "type3": 0,
+        "answer_4": "AWS Identity and Access Management (AWS IAM)",
+        "type4": 0
+    },
+    {
+        "question": "Which service would be used to send alerts based on Amazon CloudWatch alarms?",
+        "answer_1": "Amazon Simple Notification Service (Amazon SNS)",
+        "type1": 1,
+        "answer_2": "AWS CloudTrail",
+        "type2": 0,
+        "answer_3": "AWS Trusted Advisor",
+        "type3": 0,
+        "answer_4": "Amazon Route 53",
+        "type4": 0
+    },
+    {
+        "question": "Where can a user find information about prohibited actions on the AWS infrastructure?",
+        "answer_1": "AWS Trusted Advisor",
+        "type1": 0,
+        "answer_2": "AWS Identity and Access Management (IAM)",
+        "type2": 0,
+        "answer_3": "AWS Billing Console",
+        "type3": 0,
+        "answer_4": "AWS Acceptable Use Policy",
+        "type4": 1
+    }
+]
