@@ -1,5 +1,4 @@
 <?php
-require 'database.php';
 
 ?>
 <!DOCTYPE html>
@@ -57,9 +56,8 @@ require 'database.php';
         </div>
     </div>
 </body>
-
-<script src="../js/question.js"></script>
 <script src="../js/answer.js"></script>
+<script src="../js/question.js"></script>
 <script src="../js/script.js"></script>
 
 </html>

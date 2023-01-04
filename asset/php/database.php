@@ -1,6 +1,6 @@
 <?php
 
-abstract class Connection
+class Connection
 {
     private $serv = 'localhost';
     private $user = 'root';

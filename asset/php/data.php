@@ -1,7 +1,6 @@
 <?php
 
-require 'database.php';
-
+require_once 'database.php';
 class quizz extends Connection
 {
     function getdata()
@@ -17,9 +16,15 @@ class quizz extends Connection
         $stmt = $this->connect()->prepare($sql);
         $stmt->execute();
         $result = $stmt->fetchAll();
-        $data = json_encode($result, JSON_PRETTY_PRINT);
-        file_put_contents('../json/question.json', $data);
-        return $result;
+        echo json_encode($result, JSON_PRETTY_PRINT);
+    }
+    function Score()
+    {
+        $sql = "SELECT sum(answers.type) FROM answers where answers.type = 1";
+        $stmt = $this->connect()->prepare($sql);
+        $stmt->execute();
+        $result = $stmt->fetchAll();
+        echo json_encode($result, JSON_PRETTY_PRINT);
     }
 }
 (new quizz)->getdata();

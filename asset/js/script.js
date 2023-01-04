@@ -22,15 +22,14 @@ AvanceQuizz();
 countDown(30, 10);
 let arr = [];
 
-async function getText(index) {
+async function getText() {
     let myObject = await fetch("data.php");
     let myText = await myObject.text();
     let json = JSON.parse(myText);
-    display(json[index]);
-
-    console.log(myObject);
+    console.log(json);
 }
 // function of answers
+getText();
 
 function AvanceQuizz() {
     getanswer();
@@ -62,11 +61,18 @@ submitbtn.addEventListener("click", () => {
     const answer = getSelected();
     arr.push();
     console.log(arr);
+    if (answer) {
+        if (answer === CounterData[Counter].correct) Score++;
+    }
     Counter++;
     clearInterval(duree);
     countDown(30, 10);
     if (Counter < CounterData.length) {
         AvanceQuizz();
+        // StartTimer(TimeValue);
+    } else {
+        quizz.innerHTML = `<h2>You Answerd ${Score}/${CounterData.length}
+        <button onclick="show()">Show Answers</button>`;
     }
 });
 
