@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@500&display=swap%27");
 * {
     padding: 0;
     margin: 0;
@@ -12,7 +13,6 @@ body {
     align-items: center;
     justify-content: center;
     height: 100vh;
-    overflow: hidden;
     margin: 0;
 }
 
@@ -35,28 +35,6 @@ body {
     box-shadow: 0 0 10px 2px rgba(100, 100, 100, 0.1);
     width: 600px;
     overflow: hidden;
-}
-
-.awsanswers {
-    text-align: center;
-    border: 1px solid black;
-    background: #fff;
-    width: 70%;
-    box-shadow: 12px 12px 22px;
-    display: none;
-    .thequest h2 {
-        font-size: 25px;
-    }
-    .theansw h3 {
-        font-size: 20px;
-        margin-bottom: 18px;
-        color: #99e486;
-    }
-    .justification h6 {
-        font-size: 16px;
-        justify-content: space-around;
-        color: #04adc4;
-    }
 }
 
 .quiz-header {
@@ -104,25 +82,30 @@ button:focus {
     background-color: #44b927;
 }
 
-.quiz-container .bullets {
+.awsanswers {
+    margin-top: 79%;
     background-color: #fff;
-    display: flex;
-    padding: 20px;
+    text-align: center;
+    display: none;
+    width: 60%;
+    border-radius: 5px;
+    box-shadow: 0px 0px 31px 3px rgba(46, 45, 44, 0.56);
 }
 
-.quiz-container .bullets .spans {
-    flex: 1;
-    display: flex;
+.thequest {
+    margin-bottom: 15px;
+    border-top: 2px solid black;
+    font-family: "Gill Sans", sans-serif;
 }
 
-.quiz-container .bullets .spans span {
-    width: 20px;
-    height: 20px;
-    background-color: #ddd;
-    margin-right: 5px;
-    border-radius: 50%;
+.theansw {
+    color: #04c427;
+    margin-bottom: 20px;
 }
 
-.quiz-container .bullets .spans span.on {
-    background-color: #0075ff;
+.justification {
+    font-size: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #04adc4;
 }
